@@ -248,7 +248,7 @@ sell_array =
 [
 	["apple",50],
 	["heroinu",300],
-	["heroinp",3500],
+	["heroinp",3000],
 	["salema",45],
 	["ornate",40],
 	["mackerel",175],
