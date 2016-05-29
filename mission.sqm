@@ -3005,7 +3005,7 @@ class Mission
 				};
 				class Item70
 				{
-					position[]={5255.7114,8.1229801,2875.144};
+					position[]={7958.2046,100.67,6579.4927};
 					azimut=240;
 					special="NONE";
 					id=173;
@@ -7326,7 +7326,7 @@ class Mission
 		};
 		class Item127
 		{
-			position[]={5256.2778,8.0740938,2874.249};
+			position[]={7954.0142,100.67,6581.4971};
 			name="heroin_p";
 			text="Heroin Processing";
 			type="A3L_Factory_Red_Icon";
