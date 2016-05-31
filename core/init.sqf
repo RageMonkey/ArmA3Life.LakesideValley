@@ -144,24 +144,20 @@ __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
 
         if(!([] call TFAR_fnc_isTeamSpeakPluginEnabled && (__GETC__(life_adminlevel) < 1))) then {
         
-        	cutText["Enable TFR Plugin on Teamspeak!","BLACK"];
+        	cutText["Enable TFR Plugin on Teamspeak!","BLACK"] && disableUserInput true;
 			waitUntil {([] call TFAR_fnc_isTeamSpeakPluginEnabled)};
-			cutText["","PLAIN"];
+			cutText["","PLAIN"] && disableUserInput false;
 			
         };
 
 		if(_server != "ROT - REIGN OF TERROR" or _channel != "TaskForceRadio" && (__GETC__(life_adminlevel) < 1)) then {
 			
-			cutText["Wrong TS Channel.","BLACK",0,true];
+			cutText["Wrong TS Channel.","BLACK",0,true] && disableUserInput true;
 			waitUntil {([] call TFAR_fnc_getTeamSpeakServerName) == "ROT - REIGN OF TERROR" and ([] call TFAR_fnc_getTeamSpeakChannelName) == "TaskForceRadio"};
-			cutText["","PLAIN"];
+			cutText["","PLAIN"] && disableUserInput false;;
         
         };
     	
     	sleep 5;
 	};
 };
-
-
-
-	

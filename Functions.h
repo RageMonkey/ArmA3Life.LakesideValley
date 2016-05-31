@@ -128,6 +128,9 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
+		class removePitems {};
+		class removePitemsAction {};
+		class civremoveradio {};
 	};
 	
 	class Housing
@@ -340,6 +343,7 @@ class Life_Client_Core
 		class removeWeapons {};
 		class copOpener {};
 		class radarCam {};
+		class callbackup {};
 	};
 	
 	class Gangs

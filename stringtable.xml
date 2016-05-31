@@ -2416,6 +2416,9 @@
 			<Italian>Multando %1</Italian>
 			<Portuguese>Multando %1</Portuguese>
 		</Key>
+		<Key ID="STR_Item_backup">
+		    <Original>%1 has triggered their panic button at %2</Original>
+		</Key>
 		<Key ID="STR_Cop_TicketNil">
 			<Original>Person to ticket is nil</Original>
 			<English>Person to ticket is nil</English>
@@ -2439,6 +2442,10 @@
 		<Key ID="STR_pInAct_TestIntox">
 			<Original>Test Intox Level</Original>
 			<English>Test Intox Level</English>
+		</Key>
+		<Key ID="STR_pInAct_RemoveComms">
+			<Original>Confiscate Radio</Original>
+			<English>Confiscate Radio</English>
 		</Key>
 		<Key ID="STR_Cop_TicketNum">
 			<Original>You didn't enter actual number.</Original>
@@ -5320,6 +5327,14 @@
 			<French>Rob Person</French>
 			<Italian>Rob Person</Italian>		
 			<Portuguese>Roubar Jogador</Portuguese>
+		</Key>
+		<Key ID="STR_pAct_DestroyRadio">
+			<Original>Destroy Radio</Original>
+			<English>Destroy Radio</English>
+			<German>Destroy Radio</German>
+			<French>Destroy Radio</French>
+			<Italian>Destroy Radio</Italian>		
+			<Portuguese>Destroy Radio</Portuguese>
 		</Key>
 	</Package>
 </Project>

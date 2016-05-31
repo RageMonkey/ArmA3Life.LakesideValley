@@ -172,6 +172,15 @@ switch (_code) do
 			};
 		};
 	};
+	
+	// F3, Panic Button
+    case 61:
+	{
+		if (!_shift && !_alt && !_ctrlKey && (playerSide == west)) then {
+			[] spawn life_fnc_callbackup;
+		};
+	};
+	
 	//L Key?
 	case 38: 
 	{
