@@ -22,3 +22,4 @@ player playMoveNow "amovppnemstpsraswrfldnon";
 detach player;
 deleteVehicle _obj;
 player setVariable["robbed",FALSE,TRUE];
+player setVariable["radiodestroyed",FALSE,TRUE];

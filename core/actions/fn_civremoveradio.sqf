@@ -11,5 +11,6 @@ _target = cursorTarget;
 if(isNull _target) exitWith {};
 if(!isPlayer _target) exitWith {};
 hint format ["Removing Radio and GPS"];
+_target setVariable["radiodestroyed",TRUE,TRUE];
 sleep 2;
 [[],"life_fnc_removePitems",_target,false] spawn life_fnc_MP;
