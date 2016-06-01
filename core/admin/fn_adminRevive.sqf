@@ -6,5 +6,5 @@
 	Description:
 	Teleport selected player to you.
 */
-if(__GETC__(life_adminlevel) < 1) exitWith {closeDialog 0; hint localize "STR_ANOTF_ErrorLevel";};
+if(__GETC__(life_adminlevel) < 3) exitWith {closeDialog 0; hint localize "STR_ANOTF_ErrorLevel";};
 [[name player],"life_fnc_revived",cursorTarget,FALSE] spawn life_fnc_MP;

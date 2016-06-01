@@ -7,7 +7,7 @@
 	Description:
 	Teleport selected player to you.
 */
-if(__GETC__(life_adminlevel) < 5) exitWith {closeDialog 0; hint localize "STR_ANOTF_ErrorLevel";};
+if(__GETC__(life_adminlevel) < 3) exitWith {closeDialog 0; hint localize "STR_ANOTF_ErrorLevel";};
 
 private["_target"];
 _target = lbData[2902,lbCurSel (2902)];
