@@ -272,7 +272,7 @@ sell_array =
 	["peach",55],
 	["cocaine",3000],
 	["cocainep",5000],
-	["diamond",100],
+	["diamond",750],
 	["diamondc",925],
 	["iron_r",1000],
 	["copper_r",900],
