@@ -199,7 +199,7 @@ life_inv_items =
 	"life_inv_tobacco",
 	"life_inv_cigarette",
 	"life_inv_kidney",
-	"life_inv_raxsrum".
+	"life_inv_raxsrum",
 	"life_inv_bloodBag",
 	"life_inv_salineBag",
 	"life_inv_dressing"	
