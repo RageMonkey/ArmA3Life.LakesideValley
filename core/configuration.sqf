@@ -277,7 +277,7 @@ sell_array =
 	["iron_r",1000],
 	["copper_r",900],
 	["salt_r",900],
-	["glass",1450],
+	["glass",850],
 	["fuelF",500],
 		
 	["wheat",225],
