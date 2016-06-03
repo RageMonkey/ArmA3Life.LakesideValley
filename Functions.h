@@ -407,6 +407,12 @@ class Life_Client_Core
 		class RoadConeStrip {};
 		class RoadConeB {};
 		class RoadConeStripB {};
+		class bloodBag {};
+		class bloodBagUse {};
+		class saline {};
+		class salineUse {};
+		class dressing {};
+		class dressingUse {};
 	};
 	
 	class Dialog_Controls

@@ -88,6 +88,9 @@ switch (_item) do
 	case "BarGate": {23};
 	case "Rax's Rum" : {1};
 	case "zoobeer": {1}; // Duff Beer
+	case "bloodBag": {1};
+	case "salineBag" : {1};
+	case "dressing": {1}; 
 	
 
 	default {1};

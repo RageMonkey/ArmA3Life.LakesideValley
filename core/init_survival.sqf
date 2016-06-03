@@ -164,3 +164,81 @@ private["_obj"];
 		};
 	};
 };
+
+[] spawn  {
+	while{true} do
+	{
+		waitUntil {(player getVariable "woundedPlayer")};
+		life_max_health = .50;
+		life_blood = 100;
+		while{(player getVariable "woundedPlayer")} do {
+			life_thirst =  50;
+			life_hunger =  50;
+			life_blood = life_blood - 1;
+			if(damage player < (1 - life_max_health)) then {player setDamage (1 - life_max_health);};
+			sleep 9;
+		};
+		life_max_health = 1;
+	};
+};
+
+[] spawn
+{
+	while{true} do 
+	{
+		if(life_blood > 90 && life_blood < 98) then
+		{
+			hint "You have recently been revived by a medic. You need to go to a hospital for further treatment otherwise you may die.";
+			sleep 120;
+		};
+		if(life_blood < 70 && life_blood > 40) then
+		{
+			hint "You are starting to feel really faint. If you don't get more blood soon you may passout.";
+			"dynamicBlur" ppEffectEnable true;
+			"dynamicBlur" ppEffectAdjust [2];
+			"dynamicBlur" ppEffectCommit 1;
+			sleep 30;
+			"dynamicBlur" ppEffectEnable false; 
+			sleep 60;
+		};
+		if (life_blood < 30 && life_blood > 0) then			{
+			player playMoveNow "AcinPercMstpSnonWnonDnon_agony";
+			sleep 3;
+			0001 cutText["You have fainted. You need serious medical attention! If you wake up you need to find a medic right away.","BLACK FADED"];
+			player playMoveNow "Incapacitated";
+			_obj = "Land_ClutterCutter_small_F" createVehicle (getPosATL player);
+			_obj setPosATL (getPosATL player);
+			player attachTo [_obj,[0,0,0]];
+			sleep 15;
+			player playMoveNow "amovppnemstpsraswrfldnon";
+			detach player;
+			deleteVehicle _obj;
+			sleep 120;
+		};
+		if (life_blood < 0 && player getVariable "woundedPlayer") then
+		{
+			player playMoveNow "AcinPercMstpSnonWnonDnon_agony";
+			sleep 3;
+			player playMoveNow "Incapacitated";
+			_obj = "Land_ClutterCutter_small_F" createVehicle (getPosATL player);
+			_obj setPosATL (getPosATL player);
+			player attachTo [_obj,[0,0,0]];
+			0002 cutText["You are about to die from blood loss!","BLACK FADED"];
+			sleep 10;
+			0003 cutText["You are about to die from blood loss!","BLACK FADED"];
+			sleep 10;
+			0004 cutText["You are about to die from blood loss!","BLACK FADED"];
+			sleep 10;
+			player playMoveNow "amovppnemstpsraswrfldnon";
+			detach player;
+			deleteVehicle _obj;
+			if (life_blood < 0) then 
+			{
+				player setDamage 1;
+				sleep 10;
+				life_blood = 20;
+				player setVariable["woundedPlayer",false,false];
+			};
+		};
+	};
+};

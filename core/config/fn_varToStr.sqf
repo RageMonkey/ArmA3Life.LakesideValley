@@ -94,6 +94,9 @@ switch (_var) do
 	case "life_inv_BarGate": {"Police BarGate"};
 	case "life_inv_cigarette": {"Cigarette"};
 	case "life_inv_raxsrum": {"Rax's Rum"};
+	case "life_inv_bloodBag": {"Blood Bag"};
+	case "life_inv_salineBag": {"Saline Bag"};
+	case "life_inv_dressing": {"Dressing"};
 
 	//License Block
 	
