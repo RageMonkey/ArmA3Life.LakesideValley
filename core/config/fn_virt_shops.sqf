@@ -27,6 +27,6 @@ switch (_shop) do
 	case "cop": {["Cop Item Shop",["donuts","coffee","spikeStrip","water","rabbit","apple","redgull","fuelF","defusekit","BarGate","RoadBlockConc","RoadBlockWood","RoadCone","RoadConeStrip","RoadConeB","RoadConeStripB"]]};
 	case "cement": {["Cement Dealer",["cement"]]};
 	case "gold": {["Gold Buyer",["goldbar"]]};
-	case "ems": {["EMS Item Shop",["water","rabbit","apple","redgull","tbacon","peach"]]};
+	case "ems": {["EMS Item Shop",["water","rabbit","apple","redgull","tbacon","peach","salineBag","bloodBag","dressing"]]};
 	case "butcher": {["Bob's Flesh'n Besh",["raw goat meat","raw chicken","raw sheep meat","raw rabbit"]]};
 };
