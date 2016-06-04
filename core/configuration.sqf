@@ -323,9 +323,9 @@ sell_array =
 	["RoadConeStripB",500],
 	["cigarette",5],
 	["Rax's Rum",25],
-	["bloodBag",1000],
-	["salineBag",500],
-	["dressing",1000]
+	["bloodBag",100],
+	["salineBag",50],
+	["dressing",100]
 
 ];
 __CONST__(sell_array,sell_array);
@@ -398,9 +398,9 @@ buy_array =
 	["RoadConeStripB",500],
 	["cigarette",25],
 	["Rax's Rum",50],
-	["bloodBag",2000],
-	["salineBag",1000],
-	["dressing",2000]
+	["bloodBag",200],
+	["salineBag",100],
+	["dressing",200]
 ];
 __CONST__(buy_array,buy_array);
 

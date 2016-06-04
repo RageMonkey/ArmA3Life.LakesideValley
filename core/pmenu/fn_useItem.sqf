@@ -251,6 +251,24 @@ switch (true) do
 		[] spawn life_fnc_pickAxeUse;
 	};
 	
+	case (_item == "dressing"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		[] spawn life_fnc_dressingUse;
+	};
+	
+	case (_item == "bloodBag"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		[] spawn life_fnc_bloodBagUse;
+	};
+	
+	case (_item == "salineBag"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		[] spawn life_fnc_salineUse;
+	};
+	
 	default
 	{
 		hint localize "STR_ISTR_NotUsable";
