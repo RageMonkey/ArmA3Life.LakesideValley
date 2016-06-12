@@ -56,11 +56,7 @@ class Mission
 	};
 	addOnsAuto[]=
 	{
-		"A3_Characters_F_BLUFOR",
-		"a3_characters_f",
-		"A3_Characters_F_Civil",
-		"A3_Characters_F_OPFOR",
-		"A3_Characters_F_Gamma",
+		"A3_Characters_F",
 		"A3_Modules_F",
 		"task_force_radio_items",
 		"A3_Structures_F_Ind_ConcreteMixingPlant",
@@ -2721,8 +2717,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
 					text="h1_3";
-					init="this enableSimulation false;  this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""];   this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cadet Shop"",life_fnc_weaponShopMenu,""cop_cadet""];  this addAction[""Constable Shop"",life_fnc_weaponShopMenu,""cop_constable""];  this addAction[""Senior Constable"",life_fnc_weaponShopMenu,""cop_seniorconstable""]; this addAction[""Sergeant Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Senior Sergeant Shop"",life_fnc_weaponShopMenu,""cop_seniorsergeant""]; this addAction[""Inspector Shop"",life_fnc_weaponShopMenu,""cop_inspector""]; this addAction[""Superintendent Shop"",life_fnc_weaponShopMenu,""cop_superintendent""]; this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west ']; this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this addAction[""Trade suitcase"",{ if (side player == west) then { {if (typeOf _x == ""Land_Suitcase_F"") then {[] call A3L_Fnc_SellSuitcase; };  } foreach (attachedObjects player); }; }];";
-					description="S";
+					init="this enableSimulation false;  this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""];   this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""SWAT Clothing Shop"",life_fnc_clothingMenu,""swat""];  this addAction[""Cadet Shop"",life_fnc_weaponShopMenu,""cop_cadet""];  this addAction[""Constable Shop"",life_fnc_weaponShopMenu,""cop_constable""];  this addAction[""Senior Constable"",life_fnc_weaponShopMenu,""cop_seniorconstable""]; this addAction[""Sergeant Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Senior Sergeant Shop"",life_fnc_weaponShopMenu,""cop_seniorsergeant""]; this addAction[""Inspector Shop"",life_fnc_weaponShopMenu,""cop_inspector""]; this addAction[""Superintendent Shop"",life_fnc_weaponShopMenu,""cop_superintendent""];  this addAction[""SWAT Shop"",life_fnc_weaponShopMenu,""cop_swat""];this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west ']; this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this addAction[""Trade suitcase"",{ if (side player == west) then { {if (typeOf _x == ""Land_Suitcase_F"") then {[] call A3L_Fnc_SellSuitcase; };  } foreach (attachedObjects player); }; }];";
 				};
 				class Item46
 				{

@@ -11,7 +11,7 @@ _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlSetText[3103,"Lakeside Police Department Shop"];
+ctrlSetText[3103,"Lakeside PD Shop"];
 
 _ret = [];
 switch (_filter) do
@@ -54,11 +54,6 @@ switch (_filter) do
             _ret pushBack ["Campaign_Hat_Dark","Patrol Hat",100];
 		};
 		
-		if(__GETC__(life_coplevel) > 4) then
-		{
-			_ret pushBack ["TCG_swathelmet","SWAT Helmet",150];
-		};
-		
 		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret pushBack ["Campaign_Hat_Washedout","Chiefs Hat",150];
@@ -91,18 +86,19 @@ switch (_filter) do
 		
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret pushBack ["A3L_policevest2","Police Vest White",1000];
+			_ret pushBack ["V_TacVest_blk_POLICE","Police Vest Blue",1000];
 		};
 		
 		if(__GETC__(life_coplevel) > 3) then
 		{
-			_ret pushBack ["A3L_policevest1","Police Vest Yellow",1000];
+			_ret pushBack ["A3L_policevest2","Police Vest White",1000];
 		};
 		
 		if(__GETC__(life_coplevel) > 5) then
 		{
-			_ret pushBack ["TCG_policevest1","Kevlar High Capacity Vest",1000];
+			_ret pushBack ["A3L_policevest1","Police Vest Yellow",1000];
 		};
+		
 	};	
 				
 	//bags

@@ -104,11 +104,12 @@ switch(_shop) do
                                 ["Constable Shop",
                                         [                                     
 											 ["Taser_26",nil,200],
+											 ["RADAR_GUN",nil,500],
 	                                         ["RH_g19t",nil,3000],
-											 ["A3L_MP5",nil,7500],
+											 ["arifle_mas_mp5",nil,7500],
 											 ["26_cartridge",nil,50],
                                              ["RH_17Rnd_9x19_g17",nil,100],		
-											 ["A3L_MP5Mag",nil,150] 	
+											 ["30Rnd_mas_9x21_Stanag",nil,150] 	
                                         ]
                                 ];
                         };
@@ -126,12 +127,13 @@ switch(_shop) do
                                 ["Senior Constable Shop",
                                         [
                                              ["Taser_26",nil,200],
+											 ["RADAR_GUN",nil,500],
 	                                         ["RH_g19t",nil,3000],
-											 ["A3L_MP5",nil,7500],
-											 ["RH_M16A4",nil,10000],
+											 ["arifle_mas_mp5",nil,7500],
+											 ["RH_M16A3",nil,10000],
                                              ["26_cartridge",nil,50],	
 											 ["RH_17Rnd_9x19_g17",nil,100],
-                                             ["A3L_MP5Mag",nil,150],
+                                             ["30Rnd_mas_9x21_Stanag",nil,150],
                                              ["RH_30Rnd_556x45_M855A1",nil,200],
 											 ["RH_compM2",nil,500]
                                         ]
@@ -151,13 +153,14 @@ switch(_shop) do
                                 ["Sergeant Shop",
                                         [
 										     ["Taser_26",nil,200],
+											 ["RADAR_GUN",nil,500],
 	                                         ["RH_g19t",nil,3000],
-											 ["A3L_MP5",nil,7500],
-											 ["RH_M16A4",nil,10000],
+											 ["arifle_mas_mp5",nil,7500],
+											 ["RH_M16A3",nil,10000],
                                              ["RH_M4A6",nil,12500],	
 											 ["26_cartridge",nil,50],
                                              ["RH_17Rnd_9x19_g17",nil,100],
-                                             ["A3L_MP5Mag",nil,150],
+                                             ["30Rnd_mas_9x21_Stanag",nil,150],
 											 ["RH_30Rnd_556x45_M855A1",nil,200],
 											 ["RH_30Rnd_68x43_FMJ",nil,250],
 											 ["RH_compM2",nil,500],
@@ -180,14 +183,15 @@ switch(_shop) do
                                 ["Senior Sergeant Shop",
                                         [	
 										     ["Taser_26",nil,200],
+											 ["RADAR_GUN",nil,500],
 	                                         ["RH_g19t",nil,3000],
-											 ["A3L_MP5",nil,7500],
-											 ["RH_M16A4",nil,10000],
+											 ["arifle_mas_mp5",nil,7500],
+											 ["RH_M16A3",nil,10000],
                                              ["RH_M4A6",nil,12500],	
 											 ["srifle_mas_m24",nil,13000],	
 											 ["26_cartridge",nil,50],
                                              ["RH_17Rnd_9x19_g17",nil,100],
-                                             ["A3L_MP5Mag",nil,150],
+                                             ["30Rnd_mas_9x21_Stanag",nil,150],
 											 ["RH_30Rnd_556x45_M855A1",nil,200],
 											 ["RH_30Rnd_68x43_FMJ",nil,250],
 											 ["5Rnd_mas_762x51_Stanag",nil,300],
@@ -212,17 +216,18 @@ switch(_shop) do
                                 ["Inspector Shop",
                                         [	
 										     ["Taser_26",nil,200],
+											 ["RADAR_GUN",nil,500],
 	                                         ["RH_g19t",nil,3000],
 											 ["RH_bullb",nil,5000],
-											 ["A3L_MP5",nil,7500],
-											 ["RH_M16A4",nil,10000],
+											 ["arifle_mas_mp5",nil,7500],
+											 ["RH_M16A3",nil,10000],
                                              ["RH_M4A6",nil,12500],	
 											 ["srifle_mas_m24",nil,13000],	
 											 ["RH_Mk12mod1",nil,15000],
 											 ["26_cartridge",nil,50],
                                              ["RH_17Rnd_9x19_g17",nil,100],
 											 ["RH_6Rnd_454_Mag",nil,125],
-                                             ["A3L_MP5Mag",nil,150],
+                                             ["30Rnd_mas_9x21_Stanag",nil,150],
 											 ["RH_30Rnd_556x45_M855A1",nil,200],
 											 ["RH_30Rnd_68x43_FMJ",nil,250],
 											 ["5Rnd_mas_762x51_Stanag",nil,300],
@@ -249,17 +254,18 @@ switch(_shop) do
                                 ["Superintendent Shop",
                                         [
 										     ["Taser_26",nil,200],
+											 ["RADAR_GUN",nil,500],
 	                                         ["RH_g19t",nil,3000],
 											 ["RH_bullb",nil,5000],
-											 ["A3L_MP5",nil,7500],
-											 ["RH_M16A4",nil,10000],
+											 ["arifle_mas_mp5",nil,7500],
+											 ["RH_M16A3",nil,10000],
                                              ["RH_M4A6",nil,12500],	
 											 ["srifle_mas_m24",nil,13000],	
 											 ["RH_Mk12mod1",nil,15000],
 											 ["26_cartridge",nil,50],
                                              ["RH_17Rnd_9x19_g17",nil,100],
 											 ["RH_6Rnd_454_Mag",nil,125],
-                                             ["A3L_MP5Mag",nil,150],
+                                             ["30Rnd_mas_9x21_Stanag",nil,150],
 											 ["RH_30Rnd_556x45_M855A1",nil,200],
 											 ["RH_30Rnd_68x43_FMJ",nil,250],
 											 ["5Rnd_mas_762x51_Stanag",nil,300],
@@ -268,6 +274,37 @@ switch(_shop) do
 											 ["optic_mas_acog_eo",nil,700],
 											 ["RH_accupoint",nil,1000],
 											 ["RH_m3lr",nil,1000]	
+                                        ]
+                                ];
+                        };
+                };
+		};
+		
+	    case "cop_swat":
+        {
+                switch(true) do
+                {
+                        case (playerSide != west): {"You are not a cop!"};
+                        case (!license_cop_swat): {"You are not a member of the SWAT team!"};
+                        default
+                        {
+                                ["SWAT Equipment",
+                                        [
+										     ["Taser_26",nil,200],
+	                                         ["RH_g19t",nil,3000],
+											 ["arifle_mas_mp5",nil,7500],
+                                             ["RH_M4A6",nil,12500],	
+											 ["hlc_rifle_awmagnum_BL",nil,20000],	
+											 ["26_cartridge",nil,50],
+                                             ["RH_17Rnd_9x19_g17",nil,100],
+											 ["30Rnd_mas_9x21_Stanag",nil,150],
+											 ["RH_30Rnd_68x43_FMJ",nil,250],
+											 ["hlc_5rnd_300WM_FMJ_AWM",nil,300],
+											 ["HandGrenade_Stone","Flashbang",1000],
+											 ["RH_compM2",nil,500],
+											 ["RH_barska_rds",nil,600],
+											 ["optic_mas_acog_eo",nil,700],
+											 ["RH_accupoint",nil,1000]
                                         ]
                                 ];
                         };
@@ -371,13 +408,13 @@ switch(_shop) do
                         {
                                 ["Billy Joe's Firearms",
                                         [
-                                                ["RH_g17",nil,17500],
-                                                ["RH_g19",nil,18500],
-                                                ["RH_g19t",nil,18500],
-                                                ["RH_m9",nil,20000],
-                                                ["hgun_Rook40_F",nil,33500],
-												["hgun_P07_F",nil,33500],
-												["RH_gsh18",nil,41500],
+                                                ["RH_g17",nil,35000],
+                                                ["RH_g19",nil,40000],
+                                                ["RH_g19t",nil,45000],
+                                                ["RH_m9",nil,50000],
+                                                ["hgun_Rook40_F",nil,55000],
+												["hgun_P07_F",nil,55000],
+												["RH_gsh18",nil,65000],
                                                 ["RH_15Rnd_9x19_M9",nil,1250],
 												["RH_17Rnd_9x19_g17",nil,1250],
                                                 ["16Rnd_9x21_Mag",nil,1250],

@@ -314,6 +314,10 @@ switch (_shop) do
 				_return pushBack
 			    ["IVORY_REV",100000];
 			};
+		if(license_cop_swat) then
+		{
+			_return pushBack ["DAR_ExplorerPoliceStealth",35000];
+		};
 
 	};
 	case "civ_air":

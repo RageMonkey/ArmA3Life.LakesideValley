@@ -161,3 +161,24 @@ __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
     	sleep 5;
 	};
 };
+[] spawn {
+	while{true} do
+	{
+		waitUntil {visibleMap};
+		waitUntil {!isNull findDisplay 54 || !visibleMap};
+		if(visibleMap) then {
+			findDisplay 54 displayCtrl 1 buttonSetAction 
+			"
+				_ctrl = findDisplay 54 displayCtrl 101;
+				_text = ctrlText _ctrl;
+				if (_text == '') then {
+					_text = format ['%1', name player];
+				} else {
+					_text = format ['%1: %2', name player, _text];
+				};
+				_ctrl ctrlSetText _text;
+			";
+			waitUntil{isNull findDisplay 54};
+		};
+	};
+};
