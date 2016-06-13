@@ -98,7 +98,7 @@ switch(_shop) do
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 2): {"You are not a Officer!"};
+                        case (__GETC__(life_coplevel) < 2): {"You are not a Constable!"};
                         default
                         {
                                 ["Constable Shop",
@@ -121,7 +121,7 @@ switch(_shop) do
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 3): {"You are not a Senior Officer!"};
+                        case (__GETC__(life_coplevel) < 3): {"You are not a Senior Constable!"};
                         default
                         {
                                 ["Senior Constable Shop",
@@ -177,7 +177,7 @@ switch(_shop) do
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 5): {"You are not a Captain!"};
+                        case (__GETC__(life_coplevel) < 5): {"You are not a Senior Sergeant!"};
                         default
                         {
                                 ["Senior Sergeant Shop",
@@ -210,7 +210,7 @@ switch(_shop) do
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 5): {"You are not a Captain!"};
+                        case (__GETC__(life_coplevel) < 6): {"You are not an Inspector!"};
                         default
                         {
                                 ["Inspector Shop",
@@ -248,7 +248,7 @@ switch(_shop) do
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 6): {"You are not a Cheif!"};
+                        case (__GETC__(life_coplevel) < 7): {"You are not a Superintendent!"};
                         default
                         {
                                 ["Superintendent Shop",
